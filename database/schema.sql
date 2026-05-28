@@ -56,8 +56,6 @@ CREATE TABLE order_items (
 
 INSERT INTO users (full_name, email, password, role) VALUES
 ('Admin User', 'admin@ecommerce.com', '$2a$12$L.B.6la7AUfh5kn1IaoNM.f7fsBVtaOT4u0C.O1IadZrRlhCeTO9S', 'admin');
--- Default admin password: admin123 (bcrypt hash - at.favre.lib compatible)
--- Eğer giriş yapamazsanız, uygulama üzerinden yeni bir admin kaydı oluşturun veya başka bir bcrypt hash kullanın.
 
 INSERT INTO categories (name, description) VALUES
 ('Telefon', 'Akıllı telefonlar ve aksesuarları'),
